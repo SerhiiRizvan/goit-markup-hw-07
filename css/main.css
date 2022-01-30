@@ -131,8 +131,8 @@ body {
   right: 8px;
 }
 
-.modal-close:hover .modal-close-icon,
-.modal-close:focus .modal-close-icon {
+.modal-close:hover .modal-close,
+.modal-close:focus .modal-close {
   fill: #2196f3;
 }
 
@@ -335,6 +335,11 @@ body {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.header-link:hover,
+.header-link:focus {
+  color: #2196f3;
+}
+
 .current-studio,
 .current-portfolio,
 .current-contact {
@@ -353,11 +358,6 @@ body {
   background-color: #2196f3;
   left: 0;
   bottom: 0;
-}
-
-.header-link:hover,
-.header-link:focus {
-  color: #2196f3;
 }
 
 .header-contacts {
@@ -403,11 +403,6 @@ body {
   align-items: center;
   box-sizing: border-box;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.header-tel:hover,
-.header-tel:focus {
-  color: #2196f3;
 }
 
 .tel-icon {

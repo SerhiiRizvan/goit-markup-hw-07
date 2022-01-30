@@ -155,7 +155,7 @@
   }
 }
 
-.policy-check:checked + {
+.policy-check:checked + .check-text {
   &::before {
     border: none;
     background-image: url(../images/icon-check.svg);
