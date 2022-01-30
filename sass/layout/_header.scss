@@ -50,19 +50,16 @@
 .current-contact {
   color: #2196f3;
   position: relative;
-}
-
-.current-studio::after,
-.current-portfolio::after,
-.current-contact::after {
-  content: '';
-  width: 100%;
-  height: 4px;
-  border-radius: 4px;
-  position: absolute;
-  background-color: #2196f3;
-  left: 0;
-  bottom: 0;
+  &::after {
+    content: '';
+    width: 100%;
+    height: 4px;
+    border-radius: 4px;
+    position: absolute;
+    background-color: #2196f3;
+    left: 0;
+    bottom: 0;
+  }
 }
 
 .header-link:hover,
