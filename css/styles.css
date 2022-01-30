@@ -254,7 +254,7 @@ body {
 
 /* -----------------------------Цели----------------------------- */
 
-.goals-section {
+/* .goals-section {
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -313,11 +313,11 @@ body {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--alt-text-color);
-}
+} */
 
 /* ---------------------------Деятельность------------------------- */
 
-.activity {
+/* .activity {
   padding-top: 0;
   padding-bottom: 94px;
 }
@@ -364,11 +364,11 @@ body {
   height: 70px;
   color: #ffffff;
   background: rgba(47, 48, 58, 0.8);
-}
+} */
 
 /* -------------------------------Команда---------------------------- */
 
-.team {
+/* .team {
   padding-top: 94px;
   padding-bottom: 94px;
   background-color: #f5f4fa;
@@ -451,11 +451,11 @@ body {
 
 .team-social-icon {
   fill: currentColor;
-}
+} */
 
 /* ---------------------------------Клиенты------------------------------ */
 
-.clients {
+/* .clients {
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -501,11 +501,11 @@ body {
 
 .clients-icon {
   fill: currentColor;
-}
+} */
 
 /* ----------------------------------ФУТЕР-------------------------------- */
 
-.footer {
+/* .footer {
   padding-top: 60px;
   padding-bottom: 60px;
   background: #2f303a;
@@ -595,11 +595,11 @@ body {
 .footer-tel:hover,
 .footer-tel:focus {
   color: #ffffff;
-}
+} */
 
 /*--------------------------- Соцсети -----------------------------------*/
 
-.footer-container-icon {
+/* .footer-container-icon {
 }
 
 .footer-second-title {
@@ -639,11 +639,11 @@ body {
 
 .footer-social-icon {
   fill: currentColor;
-}
+} */
 
 /* -------------------------- Подписка ---------------------------- */
 
-.footer-subscribe {
+/* .footer-subscribe {
   display: flex;
   align-items: end;
 }
@@ -717,7 +717,7 @@ body {
 .footer-subscribe-icon {
   fill: #ffffff;
   margin-left: 10px;
-}
+} */
 
 /* -------------------------- Модалка ----------------------------- */
 
