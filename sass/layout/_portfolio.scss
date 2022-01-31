@@ -3,17 +3,17 @@
   padding-bottom: 94px;
 }
 
-.portfolio-list {
+.portfolio__list {
   display: flex;
   justify-content: center;
   margin-bottom: 50px;
 }
 
-.portfolio-item:not(:last-child) {
+.portfolio__item:not(:last-child) {
   margin-right: 8px;
 }
 
-.portfolio-button {
+.portfolio__button {
   border: 0px;
   padding: 6px 22px;
   font-family: inherit;

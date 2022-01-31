@@ -4,13 +4,13 @@
   background: #2f303a;
 }
 
-.container-icon {
+.footer__container {
   display: flex;
   justify-content: space-between;
   align-items: baseline;
 }
 
-.footer-title {
+.footer-address__title {
   display: inline-block;
   margin-bottom: 20px;
   font-family: Raleway;
@@ -21,7 +21,7 @@
   color: #2196f3;
 }
 
-.footer-span {
+.footer__span {
   font-family: Raleway;
   font-weight: 700;
   font-size: 26px;
@@ -30,22 +30,11 @@
   color: #ffffff;
 }
 
-.footer-after-title {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: #ffffff;
-}
-
-.footer-item:not(:last-child) {
+.footer-address__item:not(:last-child) {
   margin-bottom: 9px;
 }
 
-.footer-place {
+.footer-address__place {
   font-style: normal;
   font-size: 14px;
   line-height: 1.71;
@@ -53,20 +42,7 @@
   color: #ffffff;
 }
 
-.footer-mail {
-  font-style: normal;
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
-  color: rgba(255, 255, 255, 0.6);
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  &:hover,
-  &:focus {
-    color: #ffffff;
-  }
-}
-
-.footer-tel {
+.footer-address__link {
   font-style: normal;
   font-size: 14px;
   line-height: 1.71;
@@ -81,7 +57,7 @@
 
 /*--------------------------- Соцсети -----------------------------------*/
 
-.footer-second-title {
+.footer-social__title {
   display: block;
   font-size: 14px;
   line-height: 1.14;
@@ -91,15 +67,15 @@
   margin-bottom: 20px;
 }
 
-.footer-social-list {
+.footer-social__list {
   display: flex;
 }
 
-.footer-social-item + .footer-social-item {
+.footer-social__item + .footer-social__item {
   margin-left: 10px;
 }
 
-.footer-social-link {
+.footer-social__link {
   width: 44px;
   height: 44px;
   display: flex;
@@ -115,22 +91,22 @@
   }
 }
 
-.footer-social-icon {
+.footer-social__icon {
   fill: currentColor;
 }
 
 /* -------------------------- Подписка ---------------------------- */
 
-.footer-subscribe {
+.footer-subscribe__box {
   display: flex;
   align-items: end;
 }
 
-.footer-subscribe-wrap {
+.footer-subscribe__wrap {
   margin-right: 12px;
 }
 
-.footer-subscribe-title {
+.footer-subscribe__title {
   display: block;
   font-weight: 700;
   font-size: 14px;
@@ -141,7 +117,7 @@
   margin-bottom: 20px;
 }
 
-.footer-subscribe-email {
+.footer-subscribe__email {
   width: 358px;
   height: 50px;
   color: #ffffff;
@@ -167,7 +143,7 @@
   }
 }
 
-.footer-subscribe-btn {
+.footer-subscribe__btn {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -189,7 +165,7 @@
   }
 }
 
-.footer-subscribe-icon {
+.footer-subscribe__icon {
   fill: #ffffff;
   margin-left: 10px;
 }
