@@ -17,26 +17,26 @@
 <body>
                             <!-- Шапка-навигация -->
     <header class="header">
-        <div class="container header-container">
-            <a href="" lang="en" class="link header-title">Web<span class="header-span">Studio</span></a>
-            <nav class="header-nav">
-                <ul class="list header-list">
-                    <li class="header-item"><a class="link header-link current-studio" href="./index.html">Студия</a></li>
-                    <li class="header-item"><a class="link header-link" href="./portfolio.html">Портфолио</a></li>
-                    <li class="header-item"><a class="link header-link" href="">Контакты</a></li>
+        <div class="container header__container">
+            <a href="" lang="en" class="link header__link">Web<span class="header-span">Studio</span></a>
+            <nav class="site-nav">
+                <ul class="list site-list">
+                    <li class="site-list__item"><a class="link site-list__link--current" href="./index.html">Студия</a></li>
+                    <li class="site-list__item"><a class="link site-list__link" href="./portfolio.html">Портфолио</a></li>
+                    <li class="site-list__item"><a class="link site-list__link" href="">Контакты</a></li>
                 </ul>
             </nav>
-            <ul class="list header-contacts">
-                <li class="header-mail-list">
-                    <a class="link header-mail" href="mailto:info@devstudio.com">
-                        <svg class="mail-icon" width="16" height="12">
+            <ul class="list contacts">
+                <li class="contacts__list">
+                    <a class="link contacts__link" href="mailto:info@devstudio.com">
+                        <svg class="contacts__icon" width="16" height="12">
                             <use href="./images/icons.svg#icon-envelope-1"></use>
                         </svg>info@devstudio.com
                     </a>
                 </li>
-                <li class="header-tel-list">
-                    <a class="link header-tel" href="tel:+380961111111">
-                        <svg class="tel-icon" width="10" height="16">
+                <li class="contacts__list--left">
+                    <a class="link contacts__link" href="tel:+380961111111">
+                        <svg class="contacts__icon" width="10" height="16">
                             <use href="./images/icons.svg#icon-smartphone-1"></use>
                         </svg>+38 096 111 11 11
                     </a>
@@ -46,33 +46,33 @@
     </header>
                             <!-- Главный-контент -->
                                 <!-- Герой -->
-    <main class="main">
+    <main>
         <section class="hero">
-                <div class="container">
-                    <h1 class="hero-title">Эффективные решения <br>для вашего бизнеса</h1>
-                    <button type="button" class="hero-button" data-modal-open>Заказать услугу</button>
+                <div class="container hero__container">
+                    <h1 class="hero__title">Эффективные решения <br>для вашего бизнеса</h1>
+                    <button type="button" class="hero__button" data-modal-open>Заказать услугу</button>
                 </div>
         </section>
                                 <!-- Цели -->
-        <section class="goals-section">
+        <section class="goals">
             <div class="container">
                 <h2 class="visually-hidden">Наши цели</h2>
-                    <ul class="list goals-list">
-                        <li class="goals-item icon-antenna">
-                            <h3 class="goals-heading">Внимание к деталям</h3>
-                            <p class="goals-text">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
+                    <ul class="list goals__list">
+                        <li class="goals__item icon-antenna">
+                            <h3 class="goals__heading">Внимание к деталям</h3>
+                            <p class="goals__text">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
                         </li>
-                        <li class="goals-item icon-clock">
-                            <h3 class="goals-heading">Пунктуальность</h3>
-                            <p class="goals-text">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
+                        <li class="goals__item icon-clock">
+                            <h3 class="goals__heading">Пунктуальность</h3>
+                            <p class="goals__text">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
                         </li>
-                        <li class="goals-item icon-diagram">
-                            <h3 class="goals-heading">Планирование</h3>
-                            <p class="goals-text">Равным образом консультация с широким активом в значительной степени обуславливает.</p>
+                        <li class="goals__item icon-diagram">
+                            <h3 class="goals__heading">Планирование</h3>
+                            <p class="goals__text">Равным образом консультация с широким активом в значительной степени обуславливает.</p>
                         </li>
-                        <li class="goals-item icon-astronaut">
-                            <h3 class="goals-heading">Современные технологии</h3>
-                            <p class="goals-text">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
+                        <li class="goals__item icon-astronaut">
+                            <h3 class="goals__heading">Современные технологии</h3>
+                            <p class="goals__text">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
                         </li>
                     </ul>
             </div>
@@ -80,24 +80,24 @@
                             <!-- Деятельность -->
         <section class="activity">
             <div class="container">
-                <h2 class="activity-title">Чем мы занимаемся</h2>
-                    <ul class="list activity-list">
-                        <li class="activity-item">
-                            <div class="activity-block">
-                                <img class="activity-images" src="images/img.jpg" alt="рабочее место" width="370">
-                                <b class="activity-images-text">Десктопные приложения</b>
+                <h2 class="activity__title">Чем мы занимаемся</h2>
+                    <ul class="list activity__list">
+                        <li class="activity__item">
+                            <div class="activity__block">
+                                <img class="activity__images" src="images/img.jpg" alt="рабочее место" width="370">
+                                <b class="activity__text">Десктопные приложения</b>
                             </div>
                         </li>
-                        <li class="activity-item">
-                            <div class="activity-block">
-                                <img class="activity-images" src="images/img1.jpg" alt="рабочее место" width="370">
-                                <b class="activity-images-text">Мобильные приложения</b>
+                        <li class="activity__item">
+                            <div class="activity__block">
+                                <img class="activity__images" src="images/img1.jpg" alt="рабочее место" width="370">
+                                <b class="activity__text">Мобильные приложения</b>
                             </div>
                         </li>
-                        <li class="activity-item">
-                            <div class="activity-block">
-                                <img class="activity-images" src="images/img2.jpg" alt="рабочее место" width="370">
-                                <b class="activity-images-text">Дизайнерские решения</b>
+                        <li class="activity__item">
+                            <div class="activity__block">
+                                <img class="activity__images" src="images/img2.jpg" alt="рабочее место" width="370">
+                                <b class="activity__text">Дизайнерские решения</b>
                             </div>
                         </li>
                     </ul>
@@ -106,7 +106,7 @@
                                 <!-- Команда -->
         <section class="team">
             <div class="container">
-                <h2 class="team-title">Наша команда</h2>
+                <h2 class="team__title">Наша команда</h2>
                     <ul class="list team-list">
                         <li class="team-item">
                             <img src="images/img3.jpg" class="team-images" alt="работник студии" width="270">

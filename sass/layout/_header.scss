@@ -2,12 +2,12 @@
   border-bottom: 1px solid #ececec;
 }
 
-.header-container {
+.header__container {
   display: flex;
   align-items: center;
 }
 
-.header-title {
+.header__link {
   margin-right: 90px;
   font-family: Raleway;
   font-weight: 700;
@@ -26,15 +26,15 @@
   color: var(--header-text-color);
 }
 
-.header-list {
+.site-list {
   display: flex;
 }
 
-.header-item:not(:last-child) {
+.site-list__item:not(:last-child) {
   margin-right: 50px;
 }
 
-.header-link {
+.site-list__link {
   display: block;
   padding: 32px 0px;
   font-weight: 500;
@@ -49,9 +49,15 @@
   }
 }
 
-.current-studio,
-.current-portfolio,
-.current-contact {
+.site-list__link--current {
+  display: block;
+  padding: 32px 0px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--header-text-color);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   color: #2196f3;
   position: relative;
   &::after {
@@ -66,12 +72,12 @@
   }
 }
 
-.header-contacts {
+.contacts {
   display: flex;
   margin-left: auto;
 }
 
-.header-mail {
+.contacts__link {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -88,33 +94,11 @@
   }
 }
 
-.mail-icon {
+.contacts__icon {
   fill: currentColor;
   margin-right: 10px;
 }
 
-.header-tel-list {
+.contacts__list--left {
   margin-left: 50px;
-}
-
-.header-tel {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-  color: var(--alt-text-color);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  box-sizing: border-box;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  &:hover,
-  &:focus {
-    color: #2196f3;
-  }
-}
-
-.tel-icon {
-  fill: currentColor;
-  margin-right: 10px;
 }

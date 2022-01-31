@@ -39,8 +39,8 @@
   position: absolute;
   top: 8px;
   right: 8px;
-  &:hover &,
-  &:focus & {
+  &:hover .modal-close-icon,
+  &:focus .modal-close-icon {
     fill: #2196f3;
   }
 }

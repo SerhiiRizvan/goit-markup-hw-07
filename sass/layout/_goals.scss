@@ -1,17 +1,17 @@
-.goals-section {
+.goals {
   padding-top: 94px;
   padding-bottom: 94px;
 }
 
-.goals-list {
+.goals__list {
   display: flex;
 }
 
-.goals-item:not(:last-child) {
+.goals__item:not(:last-child) {
   margin-right: 30px;
 }
 
-.goals-item::before {
+.goals__item::before {
   display: block;
   content: '';
   height: 120px;
@@ -39,7 +39,7 @@
   background-image: url('../images/astronaut.svg');
 }
 
-.goals-heading {
+.goals__heading {
   margin-bottom: 10px;
   font-size: 14px;
   line-height: 1.14;
@@ -48,7 +48,7 @@
   color: var(--header-text-color);
 }
 
-.goals-text {
+.goals__text {
   width: 270px;
   font-size: 14px;
   line-height: 1.71;
